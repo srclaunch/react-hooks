@@ -13,6 +13,9 @@ export default {
   description: 'React hooks used in AppLab applications',
   type: ProjectType.Library,
   build: {
+    bundle: {
+      exclude: ['react', 'react-dom'],
+    },
     formats: [BuildFormat.ESM, BuildFormat.UMD],
     input: {
       directory: 'src',
