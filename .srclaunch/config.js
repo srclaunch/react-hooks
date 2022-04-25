@@ -9,7 +9,7 @@ import {
 } from '@srclaunch/types';
 
 export default {
-  name: '@srclaunch/icons',
+  name: '@srclaunch/react-hooks',
   description: 'React hooks used in AppLab applications',
   type: ProjectType.Library,
   build: {
