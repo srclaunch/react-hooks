@@ -11,39 +11,31 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "main": "./dist/index.js",
+  "type": "module",
+  "main": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "files": [
     "package.json",
     "dist"
   ],
-  "module": "./lib/index.js",
+  "module": "./dist/index.mjs",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "require": "./distlib/index.cjs.js"
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.umd.js"
     }
   },
   "scripts": {
-    "build:types": "tsc --build --force",
-    "build:vite": "vite build",
-    "build": "yarn clean && yarn build:vite && yarn build:types",
-    "clean": "rm -fr ./dist",
-    "lint:eslint": "yarn eslint ./src --ext js,ts,tsx --max-warnings 0",
-    "lint:stylelint": "yarn stylelint '**/*.ts[x]'",
-    "lint": "yarn lint:eslint && yarn lint:stylelint",
-    "push": "git push --follow-tags origin main",
-    "release": "yarn standard-version && git push --follow-tags origin main",
-    "test": "yarn ava",
-    "test:watch": "yarn ava --watch",
-    "test:coverage": "yarn ava --coverage",
-    "test:coverage:typescript": "yarn typescript-coverage-report",
-    "version:push": "git push --follow-tags origin main",
-    "version:bump": "yarn version patch --force",
-    "version:release": "yarn standard-version",
+    "build": "yarn srclaunch build",
+    "qr": "yarn build && yarn srclaunch changesets add --message \"Quick release - patch\" && yarn srclaunch release",
+    "release": "yarn test:coverage && yarn srclaunch release",
+    "test": "yarn srclaunch test",
+    "test:watch": "yarn srclaunch test --watch",
+    "test:coverage": "yarn srclaunch test --coverage",
     "yui": "yarn upgrade-interactive"
   },
   "devDependencies": {
+    "@srclaunch/cli": "^0.1.292",
     "@srclaunch/dx": "^0.1.2",
     "@types/react": "^17.0.39",
     "@types/react-router-dom": "^5.3.3",
