@@ -35,7 +35,7 @@
     "yui": "yarn upgrade-interactive"
   },
   "devDependencies": {
-    "@srclaunch/cli": "^0.1.300",
+    "@srclaunch/cli": "^0.1.301",
     "@srclaunch/dx": "^0.1.44",
     "@types/react": "^18.0.8",
     "@types/react-router-dom": "^5.3.3",
@@ -63,7 +63,7 @@
     "eslint-plugin-sort-requires": "^2.1.0",
     "eslint-plugin-testing-library": "^5.3.1",
     "eslint-plugin-unicorn": "^42.0.0",
-    "jest": "^27.5.1",
+    "jest-dom": "^4.0.0",
     "prettier": "^2.6.2",
     "prettier-eslint": "^14.0.1",
     "react": "^18.1.0",
@@ -76,9 +76,7 @@
     "stylelint-config-recommended": "^7.0.0",
     "stylelint-order": "^5.0.0",
     "ts-jest": "^27.1.4",
-    "ts-node": "^10.7.0",
-    "typescript": "^4.6.3",
-    "vite": "^2.9.6"
+    "typescript": "^4.6.3"
   },
   "peerDependencies": {
     "react": "^17.0.2",
