@@ -2256,7 +2256,7 @@ __metadata:
     eslint-plugin-sort-requires: ^2.1.0
     eslint-plugin-testing-library: ^5.3.1
     eslint-plugin-unicorn: ^42.0.0
-    jest: ^28.0.1
+    jest: ^27.5.1
     prettier: ^2.6.2
     prettier-eslint: ^14.0.1
     react: ^18.1.0
@@ -8167,6 +8167,24 @@ __metadata:
     merge-stream: ^2.0.0
     supports-color: ^8.0.0
   checksum: 607ccc29d0e7d0743ac6ecbf12e7972591cd24ef261d3e7e53c3acd26d9c410146f0747ac63b0c3fd835628a5bf15503f4699ad4afdd4596be1efbb8f3cbb5ee
+  languageName: node
+  linkType: hard
+
+"jest@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest@npm:27.5.1"
+  dependencies:
+    "@jest/core": ^27.5.1
+    import-local: ^3.0.2
+    jest-cli: ^27.5.1
+  peerDependencies:
+    node-notifier: ^8.0.1 || ^9.0.0 || ^10.0.0
+  peerDependenciesMeta:
+    node-notifier:
+      optional: true
+  bin:
+    jest: bin/jest.js
+  checksum: 96f1d69042b3c6dfc695f2a4e4b0db38af6fb78582ad1a02beaa57cfcd77cbd31567d7d865c1c85709b7c3e176eefa3b2035ffecd646005f15d8ef528eccf205
   languageName: node
   linkType: hard
 
