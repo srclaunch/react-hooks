@@ -1,4 +1,4 @@
-import 'jest-dom';
+import '@testing-library/jest-dom';
 
 describe('Passing test', () => {
   test('passes', () => {

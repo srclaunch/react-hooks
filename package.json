@@ -37,6 +37,8 @@
   "devDependencies": {
     "@srclaunch/cli": "^0.1.319",
     "@srclaunch/dx": "^0.1.44",
+    "@srclaunch/types": "^0.1.111",
+    "@testing-library/jest-dom": "^5.16.4",
     "@types/jest": "^27.4.1",
     "@types/react": "^18.0.8",
     "@types/react-router-dom": "^5.3.3",
@@ -64,7 +66,6 @@
     "eslint-plugin-sort-requires": "^2.1.0",
     "eslint-plugin-testing-library": "^5.3.1",
     "eslint-plugin-unicorn": "^42.0.0",
-    "jest-dom": "^4.0.0",
     "prettier": "^2.6.2",
     "prettier-eslint": "^14.0.1",
     "react": "^18.1.0",
