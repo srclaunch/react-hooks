@@ -1926,9 +1926,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@srclaunch/cli@npm:^0.1.319":
-  version: 0.1.319
-  resolution: "@srclaunch/cli@npm:0.1.319"
+"@srclaunch/cli@npm:^0.1.322":
+  version: 0.1.322
+  resolution: "@srclaunch/cli@npm:0.1.322"
   dependencies:
     "@rauschma/stringio": ^1.4.0
     "@srclaunch/exceptions": ^0.1.58
@@ -1964,7 +1964,7 @@ __metadata:
     ansi-styles: "*"
   bin:
     srclaunch: dist/index.mjs
-  checksum: effa1fe584c92f5d2bccd442a489179ad5ae703907908f99dcbecd70783d0f8631007eec4fc86db26739c4cd9176cae5d86f784a603f9f1a7f38d76cd25892f6
+  checksum: 783d7ae7a6f4f1db33e75a714da87baea072f8eac61e7d49b0377aafd3ec6a92dbedd976d2e968c10533441f79b5643da277f4cde24e5bcac43748bcdf5a34e2
   languageName: node
   linkType: hard
 
@@ -2009,9 +2009,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@srclaunch/react-hooks@workspace:."
   dependencies:
-    "@srclaunch/cli": ^0.1.319
+    "@srclaunch/cli": ^0.1.322
     "@srclaunch/dx": ^0.1.44
-    "@srclaunch/types": ^0.1.111
+    "@srclaunch/types": ^0.1.112
     "@testing-library/jest-dom": ^5.16.4
     "@types/jest": ^27.4.1
     "@types/react": ^18.0.8
@@ -2056,14 +2056,13 @@ __metadata:
   peerDependencies:
     react: ^18.1.0
     react-dom: ^18.1.0
-    react-router-dom: ^6.2.1
   languageName: unknown
   linkType: soft
 
-"@srclaunch/types@npm:^0.1.111":
-  version: 0.1.111
-  resolution: "@srclaunch/types@npm:0.1.111"
-  checksum: 117c955f39e83af6b24fdc26d6d0646d620793c29fe5804def036411e5549f7b2492638a7f4f34da95c55eda3e33084b2c332cbeacff1417af1bd7b44f7b5dcc
+"@srclaunch/types@npm:^0.1.112":
+  version: 0.1.112
+  resolution: "@srclaunch/types@npm:0.1.112"
+  checksum: 501eeda89b359817e5b5c57176296569c7d26b73dd5ff6dea3c38722ae6776501e7faac9ca0cd9c85bbbd264d50688194897a0def2e37411bdbdf5069cb6657c
   languageName: node
   linkType: hard
 
