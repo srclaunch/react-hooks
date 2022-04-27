@@ -1,9 +1,7 @@
-import 'jest';
+import 'jest-dom';
 
 describe('Passing test', () => {
   test('passes', () => {
-    expect(
-      true
-    ).toBeTruthy();
+    expect(true).toBeTruthy();
   });
 });
