@@ -1908,9 +1908,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@srclaunch/cli@npm:^0.1.301":
-  version: 0.1.301
-  resolution: "@srclaunch/cli@npm:0.1.301"
+"@srclaunch/cli@npm:^0.1.302":
+  version: 0.1.302
+  resolution: "@srclaunch/cli@npm:0.1.302"
   dependencies:
     "@rauschma/stringio": ^1.4.0
     "@srclaunch/exceptions": ^0.1.54
@@ -1945,7 +1945,7 @@ __metadata:
     ansi-styles: "*"
   bin:
     srclaunch: dist/index.mjs
-  checksum: e7694590c83966d449088c67ce48f44e38b7a24b51b8c072b7f1e179b8bab7c2eb9e389e16871c6fdc9869e1db85441bb0580cf6ecb0055e65e0513b4a1b735d
+  checksum: 08cd838effe4c1b8d843a0196827f9b7494b2eb6abb8785960058bd17c11514362008e5d1de0ee07960ba1e164e982a9cd96a43dad4af7bdad6e500fbedfd243
   languageName: node
   linkType: hard
 
@@ -1983,7 +1983,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@srclaunch/react-hooks@workspace:."
   dependencies:
-    "@srclaunch/cli": ^0.1.301
+    "@srclaunch/cli": ^0.1.302
     "@srclaunch/dx": ^0.1.44
     "@types/react": ^18.0.8
     "@types/react-router-dom": ^5.3.3
