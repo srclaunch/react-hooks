@@ -14,7 +14,10 @@ export default {
   type: ProjectType.Library,
   build: {
     bundle: {
-      exclude: ['react', 'react-dom'],
+      exclude: ['react'],
+      globals: {
+        react: 'React',
+      },
     },
     formats: [BuildFormat.ESM, BuildFormat.UMD],
     input: {
