@@ -35,9 +35,9 @@
     "yui": "yarn upgrade-interactive"
   },
   "devDependencies": {
-    "@srclaunch/cli": "^0.1.334",
-    "@srclaunch/dx": "^0.1.45",
-    "@srclaunch/types": "^0.1.115",
+    "@srclaunch/cli": "^0.1.346",
+    "@srclaunch/dx": "^0.1.52",
+    "@srclaunch/types": "^0.1.117",
     "@testing-library/jest-dom": "^5.16.4",
     "@types/jest": "^27.4.1",
     "@types/react": "^18.0.8",
@@ -70,7 +70,7 @@
     "prettier-eslint": "^14.0.2",
     "react-router-dom": "^6.3.0",
     "standard-version": "^9.3.2",
-    "stylelint": "^14.8.0",
+    "stylelint": "^14.8.1",
     "stylelint-config-idiomatic-order": "^8.1.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recommended": "^7.0.0",
