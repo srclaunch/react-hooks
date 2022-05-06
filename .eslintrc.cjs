@@ -1,9 +1,1 @@
-const base = require('@srclaunch/dx/.eslintrc');
-
-module.exports = {
-  ...base,
-  parserOptions: {
-    ...base.parserOptions,
-    project: './tsconfig.json',
-  },
-};
+"const base = require('@srclaunch/dx/.eslintrc');\n\nmodule.exports = {\n  ...base\n};"
