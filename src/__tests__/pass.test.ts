@@ -1,7 +1,8 @@
-import '@testing-library/jest-dom';
+import "@testing-library/jest-dom";
 
-describe('Passing test', () => {
-  test('passes', () => {
+describe("Passing test", () => {
+  test("passes", (done) => {
     expect(true).toBeTruthy();
+    done();
   });
 });
